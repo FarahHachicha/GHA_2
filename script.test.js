@@ -1,7 +1,7 @@
 import { assert } from 'https://deno.land/std/testing/asserts.ts';
 
 // Importer le code source
-import { display, buttons } from './script.js';
+import { display, buttons } from './script009.js';
 
 // Définir les tests
 Deno.test('Test clear button', () => {
