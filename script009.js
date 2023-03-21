@@ -1,6 +1,6 @@
-let display = document.getElementById('display');
-let buttons = Array.from(document.getElementsByClassName('button'));
-buttons.map( button => { 
+const display = document.getElementById('display');
+const buttons = Array.from(document.getElementsByClassName('button'));
+buttons.map(button => { 
   button.addEventListener('click', (e) => { 
     switch(e.target.innerText){ 
       case 'C': 
@@ -23,4 +23,5 @@ buttons.map( button => {
     } // fin du switch
   }); // fin du addEventListener
 }); // fin du map()
+
 
